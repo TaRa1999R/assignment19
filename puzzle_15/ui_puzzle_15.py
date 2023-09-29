@@ -35,7 +35,11 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.five.sizePolicy().hasHeightForWidth())
         self.five.setSizePolicy(sizePolicy)
-        self.five.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        font = QFont()
+        font.setPointSize(25)
+        self.five.setFont(font)
+        self.five.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.five, 1, 0, 1, 1)
 
@@ -43,7 +47,9 @@ class Ui_MainWindow(object):
         self.four.setObjectName(u"four")
         sizePolicy.setHeightForWidth(self.four.sizePolicy().hasHeightForWidth())
         self.four.setSizePolicy(sizePolicy)
-        self.four.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.four.setFont(font)
+        self.four.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.four, 0, 3, 1, 1)
 
@@ -51,7 +57,9 @@ class Ui_MainWindow(object):
         self.nine.setObjectName(u"nine")
         sizePolicy.setHeightForWidth(self.nine.sizePolicy().hasHeightForWidth())
         self.nine.setSizePolicy(sizePolicy)
-        self.nine.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.nine.setFont(font)
+        self.nine.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.nine, 2, 0, 1, 1)
 
@@ -59,7 +67,9 @@ class Ui_MainWindow(object):
         self.three.setObjectName(u"three")
         sizePolicy.setHeightForWidth(self.three.sizePolicy().hasHeightForWidth())
         self.three.setSizePolicy(sizePolicy)
-        self.three.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.three.setFont(font)
+        self.three.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.three, 0, 2, 1, 1)
 
@@ -67,7 +77,9 @@ class Ui_MainWindow(object):
         self.two.setObjectName(u"two")
         sizePolicy.setHeightForWidth(self.two.sizePolicy().hasHeightForWidth())
         self.two.setSizePolicy(sizePolicy)
-        self.two.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.two.setFont(font)
+        self.two.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.two, 0, 1, 1, 1)
 
@@ -75,7 +87,9 @@ class Ui_MainWindow(object):
         self.one.setObjectName(u"one")
         sizePolicy.setHeightForWidth(self.one.sizePolicy().hasHeightForWidth())
         self.one.setSizePolicy(sizePolicy)
-        self.one.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.one.setFont(font)
+        self.one.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.one, 0, 0, 1, 1)
 
@@ -83,7 +97,9 @@ class Ui_MainWindow(object):
         self.thirteen.setObjectName(u"thirteen")
         sizePolicy.setHeightForWidth(self.thirteen.sizePolicy().hasHeightForWidth())
         self.thirteen.setSizePolicy(sizePolicy)
-        self.thirteen.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.thirteen.setFont(font)
+        self.thirteen.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.thirteen, 3, 0, 1, 1)
 
@@ -91,7 +107,9 @@ class Ui_MainWindow(object):
         self.six.setObjectName(u"six")
         sizePolicy.setHeightForWidth(self.six.sizePolicy().hasHeightForWidth())
         self.six.setSizePolicy(sizePolicy)
-        self.six.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.six.setFont(font)
+        self.six.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.six, 1, 1, 1, 1)
 
@@ -99,7 +117,9 @@ class Ui_MainWindow(object):
         self.ten.setObjectName(u"ten")
         sizePolicy.setHeightForWidth(self.ten.sizePolicy().hasHeightForWidth())
         self.ten.setSizePolicy(sizePolicy)
-        self.ten.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.ten.setFont(font)
+        self.ten.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.ten, 2, 1, 1, 1)
 
@@ -107,7 +127,9 @@ class Ui_MainWindow(object):
         self.fourteen.setObjectName(u"fourteen")
         sizePolicy.setHeightForWidth(self.fourteen.sizePolicy().hasHeightForWidth())
         self.fourteen.setSizePolicy(sizePolicy)
-        self.fourteen.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.fourteen.setFont(font)
+        self.fourteen.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.fourteen, 3, 1, 1, 1)
 
@@ -115,7 +137,9 @@ class Ui_MainWindow(object):
         self.seven.setObjectName(u"seven")
         sizePolicy.setHeightForWidth(self.seven.sizePolicy().hasHeightForWidth())
         self.seven.setSizePolicy(sizePolicy)
-        self.seven.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.seven.setFont(font)
+        self.seven.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.seven, 1, 2, 1, 1)
 
@@ -123,7 +147,9 @@ class Ui_MainWindow(object):
         self.eleven.setObjectName(u"eleven")
         sizePolicy.setHeightForWidth(self.eleven.sizePolicy().hasHeightForWidth())
         self.eleven.setSizePolicy(sizePolicy)
-        self.eleven.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.eleven.setFont(font)
+        self.eleven.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.eleven, 2, 2, 1, 1)
 
@@ -131,7 +157,9 @@ class Ui_MainWindow(object):
         self.fifteen.setObjectName(u"fifteen")
         sizePolicy.setHeightForWidth(self.fifteen.sizePolicy().hasHeightForWidth())
         self.fifteen.setSizePolicy(sizePolicy)
-        self.fifteen.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.fifteen.setFont(font)
+        self.fifteen.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.fifteen, 3, 2, 1, 1)
 
@@ -139,7 +167,9 @@ class Ui_MainWindow(object):
         self.eight.setObjectName(u"eight")
         sizePolicy.setHeightForWidth(self.eight.sizePolicy().hasHeightForWidth())
         self.eight.setSizePolicy(sizePolicy)
-        self.eight.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.eight.setFont(font)
+        self.eight.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.eight, 1, 3, 1, 1)
 
@@ -147,7 +177,9 @@ class Ui_MainWindow(object):
         self.tewelve.setObjectName(u"tewelve")
         sizePolicy.setHeightForWidth(self.tewelve.sizePolicy().hasHeightForWidth())
         self.tewelve.setSizePolicy(sizePolicy)
-        self.tewelve.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.tewelve.setFont(font)
+        self.tewelve.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.tewelve, 2, 3, 1, 1)
 
@@ -155,7 +187,9 @@ class Ui_MainWindow(object):
         self.sixteen.setObjectName(u"sixteen")
         sizePolicy.setHeightForWidth(self.sixteen.sizePolicy().hasHeightForWidth())
         self.sixteen.setSizePolicy(sizePolicy)
-        self.sixteen.setStyleSheet(u"background-color: rgb(190, 170, 255);")
+        self.sixteen.setFont(font)
+        self.sixteen.setStyleSheet(u"background-color: rgb(190, 170, 255);\n"
+"color: rgb(108, 0, 162);")
 
         self.gridLayout.addWidget(self.sixteen, 3, 3, 1, 1)
 
@@ -174,7 +208,7 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Tic Tac Toe", None))
         self.five.setText("")
         self.four.setText("")
         self.nine.setText("")

@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Tic Tac Toe</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(170, 85, 255);</string>
@@ -26,8 +26,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -42,8 +48,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -58,8 +70,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -74,8 +92,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -90,8 +114,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -106,8 +136,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -122,8 +158,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -138,8 +180,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -154,8 +202,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -170,8 +224,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -186,8 +246,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -202,8 +268,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -218,8 +290,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -234,8 +312,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -250,8 +334,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
@@ -266,8 +356,14 @@
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>25</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(190, 170, 255);</string>
+       <string notr="true">background-color: rgb(190, 170, 255);
+color: rgb(108, 0, 162);</string>
       </property>
       <property name="text">
        <string/>
