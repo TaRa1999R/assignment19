@@ -6,7 +6,7 @@ from ui_puzzle_15 import Ui_MainWindow
 
 class MainWindow ( QMainWindow ) :
 
-    def __init__ ( self ) :
+    def __init__ ( self , num_list ) :
         super().__init__()
         self.ui = Ui_MainWindow ()
         self.ui.setupUi ( self )
@@ -16,8 +16,19 @@ class MainWindow ( QMainWindow ) :
                         [ self.ui.thirteen , self.ui.fourteen , self.ui.fifteen , self.ui.sixteen ] ]
         
         
+number_list = []
+used_number = []
+for i in range (4) :
+    number = []
+    while len(number) < 4 :
+        x = random.randint ( 1 , 16 )
+        if x not in used_number :
+            number.append (x)
+            used_number.append (x)
+    
+    number_list.append (number)
 
 app = QApplication ( sys.argv )
-window = MainWindow ()
+window = MainWindow ( number_list )
 window.show ()
 app.exec ()
