@@ -29,7 +29,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
         MainWindow.setSizePolicy(sizePolicy)
-        MainWindow.setStyleSheet(u"background-color: rgb(136, 136, 136);")
+        MainWindow.setStyleSheet(u"background-color: rgb(121, 121, 121);")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.easy = QRadioButton(self.centralwidget)
