@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(371, 337)
+        MainWindow.resize(390, 361)
         sizePolicy = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -32,57 +32,52 @@ class Ui_MainWindow(object):
         MainWindow.setStyleSheet(u"background-color: rgb(0, 255, 127);")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
-        self.translate = QPushButton(self.centralwidget)
-        self.translate.setObjectName(u"translate")
-        self.translate.setGeometry(QRect(210, 120, 141, 51))
-        font = QFont()
-        font.setPointSize(13)
-        self.translate.setFont(font)
-        self.translate.setStyleSheet(u"background-color: rgb(255, 85, 127);\n"
-"border-top-right-radius: 5px;\n"
-"border-top-left-radius: 5px;\n"
-"border-bottom-right-radius: 5px;\n"
-"border-bottom-left-radius: 5px;\n"
-"")
         self.input = QLineEdit(self.centralwidget)
         self.input.setObjectName(u"input")
-        self.input.setGeometry(QRect(20, 20, 331, 81))
+        self.input.setGeometry(QRect(30, 20, 331, 81))
+        font = QFont()
+        font.setPointSize(13)
         self.input.setFont(font)
         self.input.setStyleSheet(u"background-color: rgb(85, 255, 255);\n"
-"border-top-right-radius: 10px;\n"
 "border-top-left-radius: 10px;\n"
-"border-bottom-right-radius: 10px;\n"
+"border-top-right-radius: 10px;\n"
 "border-bottom-left-radius: 10px;\n"
-"")
-        self.input.setAlignment(Qt.AlignCenter)
+"border-bottom-right-radius: 10px;")
         self.output = QLineEdit(self.centralwidget)
         self.output.setObjectName(u"output")
-        self.output.setGeometry(QRect(20, 190, 331, 81))
+        self.output.setGeometry(QRect(30, 200, 331, 81))
         self.output.setFont(font)
         self.output.setStyleSheet(u"background-color: rgb(255, 255, 127);\n"
-"border-top-right-radius: 10px;\n"
 "border-top-left-radius: 10px;\n"
-"border-bottom-right-radius: 10px;\n"
+"border-top-right-radius: 10px;\n"
 "border-bottom-left-radius: 10px;\n"
-"")
-        self.output.setAlignment(Qt.AlignCenter)
+"border-bottom-right-radius: 10px;")
         self.EtoP = QRadioButton(self.centralwidget)
         self.EtoP.setObjectName(u"EtoP")
-        self.EtoP.setGeometry(QRect(30, 110, 131, 20))
+        self.EtoP.setGeometry(QRect(40, 120, 141, 20))
         font1 = QFont()
         font1.setPointSize(10)
         font1.setBold(True)
         self.EtoP.setFont(font1)
-        self.EtoP.setStyleSheet(u"color: rgb(0, 136, 66);")
-        self.radioButton_2 = QRadioButton(self.centralwidget)
-        self.radioButton_2.setObjectName(u"radioButton_2")
-        self.radioButton_2.setGeometry(QRect(30, 150, 131, 20))
-        self.radioButton_2.setFont(font1)
-        self.radioButton_2.setStyleSheet(u"color: rgb(0, 136, 66);")
+        self.EtoP.setStyleSheet(u"color: rgb(0, 144, 70);")
+        self.PtoE = QRadioButton(self.centralwidget)
+        self.PtoE.setObjectName(u"PtoE")
+        self.PtoE.setGeometry(QRect(40, 150, 141, 20))
+        self.PtoE.setFont(font1)
+        self.PtoE.setStyleSheet(u"color: rgb(0, 144, 70);")
+        self.translate = QPushButton(self.centralwidget)
+        self.translate.setObjectName(u"translate")
+        self.translate.setGeometry(QRect(210, 120, 131, 51))
+        self.translate.setFont(font)
+        self.translate.setStyleSheet(u"background-color: rgb(255, 85, 127);\n"
+"border-top-left-radius: 5px;\n"
+"border-top-right-radius: 5px;\n"
+"border-bottom-left-radius: 5px;\n"
+"border-bottom-right-radius: 5px;")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 371, 22))
+        self.menubar.setGeometry(QRect(0, 0, 390, 22))
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QStatusBar(MainWindow)
         self.statusbar.setObjectName(u"statusbar")
@@ -95,11 +90,10 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Translator", None))
-        self.translate.setText(QCoreApplication.translate("MainWindow", u"translate", None))
-        self.input.setInputMask("")
         self.input.setText("")
         self.output.setText("")
         self.EtoP.setText(QCoreApplication.translate("MainWindow", u"English to Persian", None))
-        self.radioButton_2.setText(QCoreApplication.translate("MainWindow", u"Persian to English", None))
+        self.PtoE.setText(QCoreApplication.translate("MainWindow", u"Persian to English", None))
+        self.translate.setText(QCoreApplication.translate("MainWindow", u"translate", None))
     # retranslateUi
 

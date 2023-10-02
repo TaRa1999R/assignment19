@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>371</width>
-    <height>337</height>
+    <width>390</width>
+    <height>361</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -23,36 +23,10 @@
    <string notr="true">background-color: rgb(0, 255, 127);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="translate">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>120</y>
-      <width>141</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 85, 127);
-border-top-right-radius: 5px;
-border-top-left-radius: 5px;
-border-bottom-right-radius: 5px;
-border-bottom-left-radius: 5px;
-</string>
-    </property>
-    <property name="text">
-     <string>translate</string>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="input">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>30</x>
       <y>20</y>
       <width>331</width>
       <height>81</height>
@@ -65,27 +39,20 @@ border-bottom-left-radius: 5px;
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(85, 255, 255);
-border-top-right-radius: 10px;
 border-top-left-radius: 10px;
-border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
 border-bottom-left-radius: 10px;
-</string>
-    </property>
-    <property name="inputMask">
-     <string/>
+border-bottom-right-radius: 10px;</string>
     </property>
     <property name="text">
      <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLineEdit" name="output">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>190</y>
+      <x>30</x>
+      <y>200</y>
       <width>331</width>
       <height>81</height>
      </rect>
@@ -97,25 +64,21 @@ border-bottom-left-radius: 10px;
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 127);
-border-top-right-radius: 10px;
 border-top-left-radius: 10px;
-border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
 border-bottom-left-radius: 10px;
-</string>
+border-bottom-right-radius: 10px;</string>
     </property>
     <property name="text">
      <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QRadioButton" name="EtoP">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>110</y>
-      <width>131</width>
+      <x>40</x>
+      <y>120</y>
+      <width>141</width>
       <height>20</height>
      </rect>
     </property>
@@ -126,18 +89,18 @@ border-bottom-left-radius: 10px;
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 136, 66);</string>
+     <string notr="true">color: rgb(0, 144, 70);</string>
     </property>
     <property name="text">
      <string>English to Persian</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_2">
+   <widget class="QRadioButton" name="PtoE">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>40</x>
       <y>150</y>
-      <width>131</width>
+      <width>141</width>
       <height>20</height>
      </rect>
     </property>
@@ -148,10 +111,35 @@ border-bottom-left-radius: 10px;
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 136, 66);</string>
+     <string notr="true">color: rgb(0, 144, 70);</string>
     </property>
     <property name="text">
      <string>Persian to English</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="translate">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>120</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 85, 127);
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>translate</string>
     </property>
    </widget>
   </widget>
@@ -160,7 +148,7 @@ border-bottom-left-radius: 10px;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>371</width>
+     <width>390</width>
      <height>22</height>
     </rect>
    </property>
