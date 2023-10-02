@@ -28,12 +28,44 @@ class MainWindow ( QMainWindow ) :
         self.ui.translate.clicked.connect (self.translate)
 
     def translate ( self ) :
+        if self.ui.output.text () != "" :
+            message = QMessageBox (windowTitle = "Erorr" , text = " you must write your input in blue box ")
+            message.exec_ ()
+            self.ui.output.setText ("")
+
         if self.mode == "E_to_P" :
-            print ("HI")
+            english = self.ui.input.text ()
+            english_word = english.split (" ")
+            persian = ""
+
+            for word in english_word :
+                for existence in self.Words_bank :
+                    if word == existence["en"] :
+                        persian += existence["fa"] + " "
+                        break
+
+                else :
+                    persian += word + " "
+            
+            self.ui.output.setText (persian)
 
         elif self.mode == "P_to_E" :
-            print ("hi")
-    
+            persian = self.ui.input.text ()
+            persian_word = persian.split (" ")
+            english = ""
+
+            for word in persian_word :
+                for existence in self.Words_bank :
+                    if word == existence["fa"] :
+                        english += existence["en"] + " "
+                        break
+
+                else :
+                    english += word + " "
+            
+            self.ui.output.setText (english)
+
+
     def statement ( self , state ) :
         self.mode = state
 
