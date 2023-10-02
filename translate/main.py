@@ -27,6 +27,7 @@ class MainWindow ( QMainWindow ) :
         self.ui.PtoE.clicked.connect (partial (self.statement , "P_to_E"))
         self.ui.translate.clicked.connect (self.translate)
 
+
     def translate ( self ) :
         if self.ui.output.text () != "" :
             message = QMessageBox (windowTitle = "Erorr" , text = " you must write your input in blue box ")
